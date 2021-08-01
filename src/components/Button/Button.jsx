@@ -15,7 +15,9 @@ const Button = ({ children }) => (
 );
 
 Button.propTypes = {
-  children: PropTypes.oneOfType([PropTypes.string, PropTypes.element]),
+  children: PropTypes.oneOfType([
+    PropTypes.string,
+    PropTypes.element]),
 };
 
 Button.defaultProps = {
